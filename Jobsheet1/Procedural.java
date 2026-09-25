@@ -14,7 +14,7 @@ public class Procedural {
 
         System.out.println(itemName1 + ": " + total(price1, quantity1));
         System.out.println(itemName2 + ": " + total(price2, quantity2));
-
+        System.out.println(itemName3 + ": " + total(price3, quantity3));
     }
     static float total(float price, int quantity) {
         return price * quantity;
